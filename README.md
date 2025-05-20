@@ -4,6 +4,41 @@
 
 This repo presents the results of analysing aggregate behaviour of Calixarene group compounds (thiacalix[4]-crown-ethers) under various synthesis conditions. By varying the compound, solvent, mixture temperatures and concentration during the synthesis procedure, we acquire twelve individual films displaying different aggregate behaviour. Using a combination of machine learning, image segmentation and Data analysis, we explore the relation of synthesis conditions to the occurrence of aggregates on the surface of these films. These films with aggregates are primarily aimed at being used as drug carriers in medicine. This research aims to explore the underlying relation between the behaviour of aggregates & their properties with those of the synthesis conditions, therefore allowing theoretical prediction of aggregate properties before conducting complete chemical synthesis. Further, this repo consists of the Python code, generated results and data analysis performed on the results. 
 
+## Data 
+
+We acquired films composed by varying compositions of:
+
+Calixarene Compounds: 
+- C<sub>46</sub>H<sub>58</sub>O<sub>6</sub>S<sub>4</sub> – Amphiphilic tert-butylthiacalix[4]mono-crown-4 
+- C<sub>40</sub>H<sub>40</sub>N<sub>4</sub>O<sub>18</sub>S<sub>4</sub> - Bolaamphiphilic 1,3-alternate nitrothiacalix[4]bis-crown-5 
+
+Solvent:
+- Chloroform - CHCl<sub>3</sub> - Choloform
+- Toulene - C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub>
+
+Solvent Concentration: 
+- 10<sup>-4</sup>
+- 10<sup>-5</sup>
+
+Compound & Solvent Temperatures:
+- 4*C 
+- 23*C 
+
+Where, we extract the following data: 
+
+1. Descriptor data of Compounds and Solvents extracted from RD-KIT toolbox [3] using SDF files 
+2. Synthesis conditions indicating temperature & concentration respectively
+3. Packing Factor of each compound (Hydrophilic & Hydrophobic sections) after Density functional theory (DFT) optimization
+4. Metrics from Atomic Force Microscope scans extracted using Cellpose Plus [2] and Gwyddion Toolbox 
+    1. Mean Particle Size - MPS (Aggergate Size)
+    2. Dispersity - (Ratio of standard deviation of aggreagates to mean particle size)
+    3. Ratio of area covered by Spheres to the substrate 
+
+Generation of Atomic Force Microscopy metric 4.1, 4.2, 4.3 were conducted as follows:
+
+<img src="Figures/Metrics_1.png" alt="Extraction" width="1200"/>
+
+The image above shows an AFM scan of one of the sample films and their segmentation of aggregate-substrate areas. Using the data extracted from cellpose plus and gwyddion, we process the data to be used in our analysis. 
 
 ## Methodology
 
@@ -23,7 +58,7 @@ A Pipeline of aggregate analysis using regression models (Random Forest and Line
 ...
 
 ## Scientific Article (in-progress)
- We are currently preparing a complete version of our experiment aimed at publicaiton in scientific journals. [1] is a published work, showing the intial experiment that highlights groundworka and achieved progress on this experiment. 
+ We are currently preparing a full-fledged version of our experiment using a larger dataset aimed at publicaiton in scientific journals. [1] is the most recently published work, showing the intial experiment highlighting groundwork and achieved progress on this experiment.
 
 ## References
 

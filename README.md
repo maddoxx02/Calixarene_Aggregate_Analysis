@@ -7,8 +7,11 @@ This repo presents the results of analysing aggregate behaviour of Calixarene gr
 
 ## Methodology
 
-![Figures\Approach_1.png]
+![Analysis of Calixarene - Pipeline 1](Figures/Approach_1.png)
+An overview of our experimental pipleline of aggregate analysis. The figure highlights the use of chemical descriptors along with atomic force microscopy features of synthesized films to analyse correlations and dependenceis within the synthesis procedure. 
 
+![Analysis of Calixarene - Pipeline 2](Figures/Approach_2.png)
+A Pipeline of aggregate analysis using regression models (Random Forest and Linear Regression) on data acquired from image segmentation from Cellpose Plus [2], Atomic force microscopy data and Chemical Descriptors from RD-KIT toolbox [3]. 
 
 ## Results 
 
@@ -20,3 +23,9 @@ This repo presents the results of analysing aggregate behaviour of Calixarene gr
 ...
 
 ## Scientific Article (in-progress)
+ We are currently preparing a complete version of our experiment aimed at publicaiton in scientific journals. [1] is a published work, showing the intial experiment that highlights groundworka and achieved progress on this experiment. 
+
+## References
+[1]: 
+[2]: Huaman, Israel A., et al. "Cellpose+, a morphological analysis tool for feature extraction of stained cell images." arXiv preprint arXiv:2410.18738 (2024).
+[3]: Landrum, Greg. "Rdkit documentation." Release 1.1-79 (2013): 4.

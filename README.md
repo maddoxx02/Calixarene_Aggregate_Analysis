@@ -7,7 +7,7 @@ This repo presents the results of analysing aggregate behaviour of Calixarene gr
 
 ## Methodology
 
-![Figures/Approach_1.png]
+![Figures\Approach_1.png]
 
 
 ## Results 

@@ -34,7 +34,7 @@ Where, we extract the following data:
     2. Dispersity - (Ratio of standard deviation of aggreagates to mean particle size)
     3. Ratio of area covered by Spheres to the substrate 
 
-Generation of Atomic Force Microscopy metric 4.1, 4.2, 4.3 were conducted as follows:
+Generation of Atomic Force Microscopy metric 4.i, 4.ii, 4.iii were conducted as follows:
 
 <img src="Figures/Metrics_1.png" alt="Extraction" width="1200"/>
 

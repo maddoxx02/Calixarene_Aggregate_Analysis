@@ -1,4 +1,4 @@
-# Calixarene_Aggregate_Analysis
+# Calixarene Aggregate Analysis
 
 ## Introduction
 
@@ -7,7 +7,7 @@ This repo presents the results of analysing aggregate behaviour of Calixarene gr
 
 ## Methodology
 
-...
+![Figures/Approach_1.png]
 
 
 ## Results 

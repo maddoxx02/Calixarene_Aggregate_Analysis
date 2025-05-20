@@ -13,7 +13,7 @@ Calixarene Compounds:
 - C<sub>40</sub>H<sub>40</sub>N<sub>4</sub>O<sub>18</sub>S<sub>4</sub> - Bolaamphiphilic 1,3-alternate nitrothiacalix[4]bis-crown-5 
 
 Solvent:
-- Chloroform - CHCl<sub>3</sub> - Choloform
+- Chloroform - CHCl<sub>3</sub> 
 - Toulene - C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub>
 
 Solvent Concentration: 

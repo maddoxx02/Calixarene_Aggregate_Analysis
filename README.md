@@ -26,6 +26,9 @@ A Pipeline of aggregate analysis using regression models (Random Forest and Line
  We are currently preparing a complete version of our experiment aimed at publicaiton in scientific journals. [1] is a published work, showing the intial experiment that highlights groundworka and achieved progress on this experiment. 
 
 ## References
-[1]: 
+
+[1]: Chetinel, I. D., et al. "Control of Self-Organization of Thiacalix [4] Crown-Ethers in Cone and 1, 3-Alternate Forms in Nanofilms on Quartz Substrate." Colloid Journal 87.2 (2025): 236-245.
+
 [2]: Huaman, Israel A., et al. "Cellpose+, a morphological analysis tool for feature extraction of stained cell images." arXiv preprint arXiv:2410.18738 (2024).
+
 [3]: Landrum, Greg. "Rdkit documentation." Release 1.1-79 (2013): 4.
